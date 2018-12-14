@@ -1,0 +1,119 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+#app {
+    height: 100%;
+}
+#content {
+    flex: 1;
+    height: 100%;
+    background-color: #e4e7ea;
+}
+
+#content .container {
+    height: 100%;
+    background-color: #fff;
+    border-left: solid 1px #acaeb0;
+    border-right: solid 1px #acaeb0;
+    padding: 18px 24px;
+}
+
+.document-title {
+    font-weight: bold;
+    margin-right: 6px;
+}
+.document-date {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.cell {
+    border: solid 1px #d6d6d6;
+    padding: 10px;
+}
+
+.full-height {
+    height: 100%;
+}
+.full-width {
+    width: 100%;
+}
+
+.block-dark {
+    background-color: #000;
+}
+
+.block-white {
+    background-color: #fff;
+}
+.block-light {
+    background-color: #eee;
+}
+.block-gray {
+    background-color: #ddd;
+    color: #fff;
+}
+.text-center {
+    text-align: center;
+}
+.text-white {
+    color: #fff;
+}
+.bold {
+    font-weight: bold;
+}
+
+.padding-5 {
+    padding: 5px;
+}
+.padding-10 {
+    padding: 10px;
+}
+.doc-list {
+    overflow: hidden;
+    height: calc(100% - 80px);
+    display: block;
+    width: 100%;
+
+}
+.scroll-up {
+    width: 100%;
+    height: 16px;
+}
+.scroll-down {
+    width: 100%;
+    height: 16px;
+    bottom: 0;
+    left: 0;
+}
+
+.fs-6 {
+    font-size: 6pt;
+}
+.fs-10 {
+    font-size: 10pt;
+}
+.fs-14 {
+    font-size: 14pt;
+}
+.doc-item {
+    color: #000;
+}
+.doc-item:hover {
+    cursor: pointer ;
+    color: #fff;
+    background-color: #111 !important;
+}
+
+.doc-item.selected {
+    background-color: #666 !important;
+    color: #fff;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
