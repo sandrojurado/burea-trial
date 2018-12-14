@@ -155,7 +155,7 @@
             },
             addDocument() {
                 if (confirm('Create new document?')) {
-                    axios.post('/api/document/')
+                    axios.post('/api/document')
                         .then(function (response) {
                             this.documents = response.data.documents;
                             this.selected = response.data.selected;
