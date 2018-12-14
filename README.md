@@ -1,7 +1,7 @@
 # burea-trial
 Markdown editor
 
-[video]: https://burea.sandrojurado.com/video/burea-enhanced.gif "Demo"
+![demo](https://burea.sandrojurado.com/video/burea-enhanced.gif "Demo")
 [You can see it in video](https://burea.sandrojurado.com/video/burea.mp4)
 
 # Demo
